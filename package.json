@@ -48,7 +48,8 @@
     "test": "ng test ngx-papaparse --browsers PhantomJS --watch=false",
     "test:coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "publish": "npm publish dist/ngx-papaparse/ --access=public --registry=https://nexus.pdtec.lan/repository/pdtec-npm/"
   },
   "dependencies": {
     "tslib": "^2.0.0"
