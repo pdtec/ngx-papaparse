@@ -1,13 +1,13 @@
 {
   "name": "@pdtec/ngx-papaparse",
-  "version": "14.0.0-next.1",
+  "version": "15.0.0-next.1",
   "description": "Papa Parse wrapper for Angular. Fast parser-library for CSV to JSON and vice versa, with built in support for background-workers.",
   "author": "Albert Haff <ahn@haffdata.com>",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/alberthaff/ngx-papaparse"
   },
-  "homepage": "https://alberthaff.dk/projects/ngx-papaparse/docs/v5",
+  "homepage": "https://alberthaff.dk/projects/ngx-papaparse/docs/v7",
   "keywords": [
     "csv",
     "reader",
@@ -30,14 +30,6 @@
     "threading",
     "multi-threaded",
     "angular",
-    "angular2",
-    "angular4",
-    "angular5",
-    "angular6",
-    "angular7",
-    "angular8",
-    "angular9",
-    "angular10",
     "papa",
     "papaparse"
   ],
@@ -52,21 +44,19 @@
     "publish": "npm publish dist/ngx-papaparse/ --access=public --registry=https://nexus.pdtec.lan/repository/pdtec-npm/"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
-  },
-  "peerDependencies": {
+    "tslib": "^2.0.0",
     "papaparse": "^5.3.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^14.2.2",
-    "@angular/cli": "^14.2.2",
-    "@angular/common": "^14.2.1",
-    "@angular/compiler": "^14.2.1",
-    "@angular/compiler-cli": "^14.2.1",
-    "@angular/core": "^14.2.1",
-    "@angular/platform-browser": "^14.2.1",
-    "@angular/platform-browser-dynamic": "^14.2.1",
-    "@angular/router": "^14.2.1",
+    "@angular-devkit/build-angular": "^15.0.4",
+    "@angular/cli": "^15.0.4",
+    "@angular/common": "^15.0.4",
+    "@angular/compiler": "^15.0.4",
+    "@angular/compiler-cli": "^15.0.4",
+    "@angular/core": "^15.0.4",
+    "@angular/platform-browser": "^15.0.4",
+    "@angular/platform-browser-dynamic": "^15.0.4",
+    "@angular/router": "^15.0.4",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "^2.0.8",
     "@types/node": "^12.11.1",
@@ -82,13 +72,13 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "karma-phantomjs-launcher": "^1.0.4",
-    "ng-packagr": "^14.2.1",
+    "ng-packagr": "^15.0.3",
     "phantomjs-prebuilt": "^2.1.16",
     "protractor": "~7.0.0",
     "rxjs": "^6.5.5",
     "ts-node": "~5.0.1",
     "tslint": "~6.1.0",
-    "typescript": "4.6.4",
+    "typescript": "4.8.4",
     "zone.js": "~0.11.4"
   }
 }
